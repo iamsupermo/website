@@ -1,0 +1,388 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /* border: 1px solid orange; */
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #2b0c33;
+}
+
+p {}
+
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+
+
+/* 導覽列 */
+
+.navbar {
+    background: linear-gradient(to right, #6c4528, #986b38, #d6ab5c, #ae813f);
+    font-weight: bold;
+    box-shadow: 5px 2px 2px 2px rgba(0, 0, 0, .7);
+}
+
+.navbar:hover {
+    color: white;
+}
+
+
+/* 導覽列結束 */
+
+
+/* 首頭 */
+
+header {
+    background: linear-gradient(#3a1044, #6b1e72, #3a1044) no-repeat;
+    width: 63%;
+    margin: auto;
+    position: relative;
+}
+
+
+/* 形象圖 */
+
+.title1 {
+    position: absolute;
+    z-index: 10;
+    top: 150px;
+    width: 100%;
+}
+
+.title2 {
+    position: absolute;
+    z-index: 10;
+    top: 297px;
+    width: 100%;
+    color: #ffb222;
+    float: right;
+}
+
+
+/* 簡短功效 */
+
+.product1 {
+    position: absolute;
+    top: 1630px;
+    z-index: 11;
+}
+
+.product1:after {
+    content: "";
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+.bottom1 {
+    width: 300px;
+    margin: auto;
+}
+
+.bottom1:hover {
+    width: 280px;
+    transition: .5s;
+    border: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.button:active {
+    border: none;
+}
+
+select {
+    width: 100%;
+    clip: rect(2px 100% 25px 5px);
+}
+
+.Efficacy1 {
+    padding-top: 80px;
+}
+
+
+/* 困擾 */
+
+.worry1 {
+    background: linear-gradient(#3a1044, #441350, #870393) no-repeat;
+    width: 63%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.pb {}
+
+.pb1 {
+    font-size: 16px;
+    color: white;
+    padding-top: 143px;
+}
+
+.title3 {
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #ffc926;
+    margin: 0;
+}
+
+.title4 {
+    margin-top: 0;
+}
+
+.week1 {
+    padding-top: 100px;
+}
+
+
+/* 等滲透壓 */
+
+.isotonicity1 {
+    background: linear-gradient(#870393, #77134e, #77134e) no-repeat;
+    width: 63%;
+    margin: auto;
+}
+
+
+/* 成分 */
+
+.ingredients1 {
+    background: linear-gradient(#77134e, #77134e, #77134e) no-repeat;
+    width: 63%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.card-header {}
+
+.card-body {
+    background-color: #510730;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* 購買 */
+
+.buyit1 {
+    background: linear-gradient(#77134e, #77134e, #77134e) no-repeat;
+    width: 63%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+@media (max-width: 575px) {
+    header {
+        width: 100%;
+    }
+    .title1 {
+        top: 78px;
+    }
+    .title2 {
+        top: 115px;
+        font-size: 6px;
+    }
+    .Efficacy1 {
+        padding-top: 0px;
+    }
+    .worry1 {
+        width: 100%;
+        padding-top: 0px;
+    }
+    .pb1 {
+        padding-top: 40px;
+    }
+    .title3 {
+        font-weight: 900;
+        font-size: 9px;
+        letter-spacing: 1px;
+        color: #ffc926;
+        margin: 0;
+    }
+    .title4 {
+        margin-top: 0;
+        font-size: 6px;
+    }
+    .week1 {
+        padding-top: 20px;
+    }
+    .isotonicity1 {
+        width: 100%;
+    }
+    .ingredients1 {
+        width: 100%;
+    }
+    .buyit1 {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .ingredients1 {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    header {
+        width: 100%;
+    }
+    .title1 {
+        top: 100px;
+        padding-right: 40px;
+    }
+    .title2 {
+        top: 200px;
+        font-size: 11px;
+    }
+    .worry1 {
+        width: 100%;
+    }
+    .Efficacy1 {
+        padding-top: 0px;
+    }
+    .pb1 {
+        padding-top: 40px;
+    }
+    .title3 {
+        font-weight: 900;
+        font-size: 9px;
+        letter-spacing: 1px;
+        color: #ffc926;
+        margin: 0;
+    }
+    .title4 {
+        margin-top: 0;
+        font-size: 6px;
+    }
+    .week1 {
+        padding-top: 20px;
+    }
+    .isotonicity1 {
+        width: 100%;
+    }
+    .ingredients1 {
+        width: 100%;
+    }
+    .buyit1 {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .ingredients1 {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    header {
+        width: 100%;
+    }
+    .title1 {
+        top: 100px;
+        padding-right: 40px;
+    }
+    .title2 {
+        top: 200px;
+        font-size: 11px;
+    }
+    .worry1 {
+        width: 100%;
+    }
+    .Efficacy1 {
+        padding-top: 0px;
+    }
+    .pb1 {
+        padding-top: 40px;
+    }
+    .title3 {
+        font-weight: 900;
+        font-size: 9px;
+        letter-spacing: 1px;
+        color: #ffc926;
+        margin: 0;
+    }
+    .title4 {
+        margin-top: 0;
+        font-size: 6px;
+    }
+    .week1 {
+        padding-top: 20px;
+    }
+    .isotonicity1 {
+        width: 100%;
+    }
+    .ingredients1 {
+        width: 100%;
+    }
+    .buyit1 {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .ingredients1 {
+        padding-top: 10px;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+        font-size: 15px;
+    }
+    header {
+        width: 87%;
+    }
+    .title1 {
+        top: 110px;
+    }
+    .title2 {
+        top: 270px;
+        font-size: 15px;
+    }
+    .worry1 {
+        width: 87%;
+    }
+    .Efficacy1 {
+        padding-top: 0px;
+    }
+    .pb1 {
+        padding-top: 90px;
+    }
+    .title3 {
+        font-weight: 900;
+        font-size: 22px;
+        letter-spacing: 1px;
+        color: #ffc926;
+        margin: 0;
+    }
+    .title4 {
+        margin-top: 0;
+        font-size: 15px;
+    }
+    .week1 {
+        padding-top: 20px;
+    }
+    .isotonicity1 {
+        width: 87%;
+    }
+    .ingredients1 {
+        width: 87%;
+    }
+    .buyit1 {
+        width: 87%;
+        padding-top: 10px;
+    }
+    .ingredients1 {
+        padding-top: 10px;
+    }
+}
